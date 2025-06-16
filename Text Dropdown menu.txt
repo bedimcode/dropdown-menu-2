@@ -1,0 +1,23 @@
+========== NAV ==========
+.nav__logo
+Mail
+
+
+========== DROPDOWN ==========
+.dropdown__item span
+Account
+Search
+Maps
+YouTube
+Play
+News
+Gmail
+Meet
+Chat
+Keep
+Drive
+Task
+Translate
+Photos
+Calendar
+Cloud
