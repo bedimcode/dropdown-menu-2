@@ -1,0 +1,39 @@
+/*=============== HEADER & NAV ===============*/
+.header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   background-color: var(--body-color);
+   box-shadow: 0 2px 16px hsla(220, 8%, 8%, .1);
+   z-index: 100;
+}
+
+.nav{
+   height: var(--header-height);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   &__menu,
+   &__logo,
+   &__actions{
+      display: flex;
+      column-gap: .5rem;
+      align-items: center;
+      height: 100%;
+   }
+   &__logo{
+      font-weight: var(--font-semi-bold);
+      
+      & img{
+         width: 24px;
+      }
+   }
+   &__account{
+      width: 32px;
+   }
+   :is(&__menu, &__actions) i{
+      font-size: 1.5rem;
+   }
+}
